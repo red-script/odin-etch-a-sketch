@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#navi {
+    margin-bottom: 150px;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 2px solid red;
+    width: 650px;
+    height: 650px;
+}
+
+.grid {
+    box-sizing: border-box;
+    border: 1px solid #333;
+}
+
