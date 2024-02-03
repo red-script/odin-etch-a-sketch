@@ -22,7 +22,8 @@ function gridGenerator(gridNum) {
             container.appendChild(newDiv);
             
             newDiv.addEventListener('mouseover', () => {
-                newDiv.style.backgroundColor = 'Red';
+                let newColor = '#' + Math.floor(Math.random() * 900000);
+                newDiv.style.backgroundColor = `${newColor}`;
             });
         }
     }
